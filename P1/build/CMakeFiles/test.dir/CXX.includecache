@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/Desktop/CPPND/P1/src/model.h
+vector
+-
+unordered_map
+-
+string
+-
+cstddef
+-
+
+/root/Desktop/CPPND/P1/src/route_model.h
+limits
+-
+cmath
+-
+unordered_map
+-
+model.h
+/root/Desktop/CPPND/P1/src/model.h
+iostream
+-
+
+/root/Desktop/CPPND/P1/src/route_planner.cpp
+route_planner.h
+/root/Desktop/CPPND/P1/src/route_planner.h
+algorithm
+-
+
+/root/Desktop/CPPND/P1/src/route_planner.h
+iostream
+-
+vector
+-
+string
+-
+route_model.h
+/root/Desktop/CPPND/P1/src/route_model.h
+
