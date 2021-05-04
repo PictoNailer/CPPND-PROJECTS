@@ -28,6 +28,9 @@ class RoutePlanner {
 
     float distance = 0.0f;
     RouteModel &m_Model;
+    
+    // Declare compare function for sorting open_list
+    static bool CompareFValue(RouteModel::Node *nodeA, RouteModel::Node *nodeB);
 };
 
 #endif
